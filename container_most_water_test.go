@@ -6,7 +6,7 @@
 // Better: Iterate the array from both ends. At each iteration, discard the shorter line in
 // the pair, advancing that endpoint inward. Track the max. O(n) time and O(1) space.
 
-package main
+package leetcode
 
 import (
 	"testing"
