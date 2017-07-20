@@ -53,8 +53,8 @@ func test_max_area(t *testing.T, height []int, expected_area int) {
 }
 
 func TestMaxArea(t *testing.T) {
-	test_max_area(t, []int{1,2,5,4,0,5}, 15)
-	test_max_area(t, []int{20,20,5,4,0,5}, 25)
-	test_max_area(t, []int{50,50,5,4,0,5}, 50)
-	test_max_area(t, []int{5,5,5,4,0,5}, 25)
+	test_max_area(t, []int{1, 2, 5, 4, 0, 5}, 15)
+	test_max_area(t, []int{20, 20, 5, 4, 0, 5}, 25)
+	test_max_area(t, []int{50, 50, 5, 4, 0, 5}, 50)
+	test_max_area(t, []int{5, 5, 5, 4, 0, 5}, 25)
 }
